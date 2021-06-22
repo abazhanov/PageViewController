@@ -13,6 +13,8 @@
 		FAC3D4A426811D0B00A660B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D4A226811D0B00A660B1 /* Main.storyboard */; };
 		FAC3D4A626811D0D00A660B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D4A526811D0D00A660B1 /* Assets.xcassets */; };
 		FAC3D4A926811D0D00A660B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC3D4A726811D0D00A660B1 /* LaunchScreen.storyboard */; };
+		FAC3D4B126818C9B00A660B1 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D4B026818C9B00A660B1 /* ContentViewController.swift */; };
+		FAC3D4B326818CC100A660B1 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC3D4B226818CC100A660B1 /* PageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FAC3D4A526811D0D00A660B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC3D4A826811D0D00A660B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC3D4AA26811D0D00A660B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC3D4B026818C9B00A660B1 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		FAC3D4B226818CC100A660B1 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				FAC3D49E26811D0B00A660B1 /* SceneDelegate.swift */,
 				FAC3D4A026811D0B00A660B1 /* ViewController.swift */,
 				FAC3D4A226811D0B00A660B1 /* Main.storyboard */,
+				FAC3D4B026818C9B00A660B1 /* ContentViewController.swift */,
+				FAC3D4B226818CC100A660B1 /* PageViewController.swift */,
 				FAC3D4A526811D0D00A660B1 /* Assets.xcassets */,
 				FAC3D4A726811D0D00A660B1 /* LaunchScreen.storyboard */,
 				FAC3D4AA26811D0D00A660B1 /* Info.plist */,
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC3D4B126818C9B00A660B1 /* ContentViewController.swift in Sources */,
+				FAC3D4B326818CC100A660B1 /* PageViewController.swift in Sources */,
 				FAC3D4A126811D0B00A660B1 /* ViewController.swift in Sources */,
 				FAC3D49D26811D0B00A660B1 /* AppDelegate.swift in Sources */,
 				FAC3D49F26811D0B00A660B1 /* SceneDelegate.swift in Sources */,
@@ -296,7 +304,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.PageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +323,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = ArtemBazhanov.PageViewController;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
